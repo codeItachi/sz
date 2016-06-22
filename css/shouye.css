@@ -1,0 +1,344 @@
+@import "init.css";
+body{
+    background:#1D1D1D;
+    position:relative;
+}
+/*头部开始*/
+header{
+    width:9.5rem;
+    height:1.15rem;
+    margin:0 auto;
+    position:relative;
+    background: #000000;
+}
+header>ul{
+    width:9.5rem;
+    height:0.5rem;
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto auto;
+}
+header>ul>li{
+    height:0.5rem;
+    line-height:0.5rem;
+    margin-right:27%;
+    float: left;
+    color:#fff;
+    font-size:0.4rem;
+}
+header>ul>li:last-child{
+    margin-right:0;
+}
+header>ul>li>img{
+    height:0.5rem;
+}
+header>ul>li>a{
+    display: block;
+    color:#fff;
+    font-size:0.4rem;
+}
+/*头部结束*/
+/*标题开始*/
+.nav{
+    width:100%;
+    height:1.1rem;
+}
+.nav-con{
+    width:6.7rem;
+    height:16.7rem;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 999;
+    background: #383838;
+    display: none;
+}
+.nav-con>li{
+    width:100%;
+    height:1.3rem;
+    border-bottom:1px solid #727272;
+}
+.nav-con>li>a{
+    width:100%;
+    height:1.3rem;
+    display: block;
+    color:#fff;
+    font-size:0.4rem;
+    line-height:1.3rem;
+    padding-left:0.6rem;
+}
+.nav>img{
+    width:0.78rem;
+    height:0.48rem;
+    position:fixed;
+    top:1.56rem;
+    right:0.49rem;
+    z-index:999;
+}
+/*标题结束*/
+/*视频开始*/
+.shipin{
+    width:100%;
+    height:5.6rem;
+    position:relative;
+}
+.shipin>img{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.left{
+    width:3rem;
+    height:100%;
+    z-index:999;
+    position:absolute;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.4);
+}
+.left-top{
+    width:3rem;
+    height:2.3rem;
+    margin-bottom:1.8rem;
+}
+.left-bottom{
+    width:100%;
+    height:1rem;
+}
+.left-bottom>p{
+    width:100%;
+    height:0.4rem;
+    color:#fff;
+    font-size:0.4rem;
+    padding-left:0.38rem;
+}
+.left-bottom>.shijian{
+    width:100%;
+    height:0.6rem;
+}
+.left-bottom>.shijian>img{
+    width:100%;
+    height:100%;
+    display:block;
+}
+.left-top>img{
+    width:100%;
+    height:100%;
+    display: block;
+}
+.biaoti{
+    width:5.4rem;
+    height:0.3rem;
+    position:absolute;
+    top:0.4rem;
+    right:1.2rem;
+    color:#fff;
+    font-size:0.3rem;
+    line-height:0.3rem;
+}
+.biaoti>li{
+    float: left;
+    margin-right:0.1rem;
+}
+.biaoti>li:last-child{
+    margin-right: 0;
+}
+/*视频结束*/
+/*日程表开始*/
+.richengbiao{
+    width:100%;
+    height:1.26rem;
+    font-size:0.52rem;
+    color:#fff;
+    line-height:1.26rem;
+    text-align: center;
+    background:#3E3A39;
+}
+.biao{
+    width:100%;
+    height:1.26rem;
+    background:#727272;
+    margin-top:1px;
+}
+.biao>li{
+    width:50%;
+    height:0.4rem;
+    float: left;
+    font-size:0.5rem;
+    color:#fff;
+    text-align: center;
+    margin-top:0.43rem;
+    line-height:0.4rem;
+    border-right:1px solid #fff;
+}
+.biao>.hot{
+    color:#1D1D1D;
+}
+.biao>li:last-child{
+    border-right:0;
+}
+/*日程表结束*/
+/*背景-秀场开始*/
+.beijing_xiuchang{
+    width:100%;
+    height:3.9rem;
+}
+.beijing_xiuchang>a>img{
+    width:100%;
+    height:100%;
+}
+/*背景-秀场结束*/
+/*banner开始*/
+.banner{
+    width:100%;
+    height:6.6rem;
+}
+.zhezhao{
+    width:100%;
+    height:1.7rem;
+    background:rgba(0,0,0,0.3);
+    position:absolute;
+    bottom:0;
+    left:0;
+    color:#fff;
+    font-size:0.5rem;
+    text-align: left;
+    padding-left:0.3rem;
+    line-height:170%;
+}
+/*banner结束*/
+/*背景-show开始*/
+.beijing_show{
+    width:100%;
+    height:5.1rem;
+}
+.beijing_show>a>img{
+    width:100%;
+    height:100%;
+
+}
+/*背景-show结束*/
+/*banner-show开始*/
+.banner-show{
+    width:100%;
+    height:7.5rem;
+}
+.swiper-slide>img{
+    width:100%;
+    height:100%;
+}
+.zhezhao-show{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.3);
+    position:absolute;
+    bottom:0;
+    left:0;
+    color:#fff;
+    font-size:0.5rem;
+    text-align: center;
+    line-height:7.5rem;
+}
+/*banner-show结束*/
+/*品牌与设计师开始*/
+.pinpai{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+}
+.pinpai>li{
+    width:4.98rem;
+    height:4.98rem;
+    float: left;
+}
+.pinpai>li:last-child{
+    border-left:1px solid #1D1D1D;
+}
+.pinpai>li>img{
+    width:4.98rem;
+    height:4.98rem;
+}
+/*品牌与设计师结束*/
+/*背景-新闻开始*/
+.beijing_xinwen{
+    width:100%;
+    height:4.5rem;
+}
+.beijing_xinwen>a>img{
+    width:100%;
+    height:100%;
+}
+/*背景-新闻结束*/
+/*活动开始*/
+.banner-hd{
+    width:100%;
+    height:6.7rem;
+    position:relative;
+    overflow: hidden;
+}
+.banner-hd>img{
+    width:100%;
+    height:100%;
+}
+.hd-zhezhao{
+    width:100%;
+    height:1.7rem;
+    position:absolute;
+    bottom:0;
+    left:0;
+    font-size:0.5rem;
+    color:#fff;
+    line-height:1.7rem;
+    padding-left:0.3rem;
+    background:rgba(0,0,0,0.4);
+}
+/*活动结束*/
+/*返回顶部开始*/
+.fh-top{
+    width:100%;
+    height:3.84rem;
+    text-align: center;
+    z-index:999;
+    position:absolute;
+    top:111rem;
+}
+.fh-top>img{
+    width:1.2rem;
+    height:3.84rem;
+}
+/*返回顶部结束*/
+.bg{
+    width:100%;
+    height:3.5rem;
+    position:absolute;
+    top:115rem;
+}
+.bg>img{
+    width:100%;
+    height:100%;
+    display: block;
+}
+.bg>ul{
+    width:9rem;
+    height:0.9rem;
+    border-top:1px solid #fff;
+    position:absolute;
+    bottom:0.2rem;
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+.bg>ul>li{
+    height:0.3rem;
+    float: left;
+    color:#fff;
+    font-size:0.3rem;
+    margin-top:0.3rem;
+    margin-right:0.2rem;
+}
+.bg>ul>li:last-child{
+    margin-right: 0;
+}

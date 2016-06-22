@@ -1,0 +1,191 @@
+@import "init.css";
+body{
+    background:#1D1D1D;
+}
+/*头部开始*/
+header{
+    width:9.5rem;
+    height:1.15rem;
+    margin:0 auto;
+    position:relative;
+    background: #000000;
+}
+header>ul{
+    width:9.5rem;
+    height:0.5rem;
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto auto;
+}
+header>ul>li{
+    height:0.5rem;
+    line-height:0.5rem;
+    margin-right:27%;
+    float: left;
+    color:#fff;
+    font-size:0.4rem;
+}
+header>ul>li:last-child{
+    margin-right:0;
+}
+header>ul>li>img{
+    height:0.5rem;
+}
+header>ul>li>a{
+    display: block;
+    color:#fff;
+    font-size:0.4rem;
+}
+/*头部结束*/
+/*标题开始*/
+.nav{
+    width:100%;
+    height:1.1rem;
+}
+.nav-con{
+    width:6.7rem;
+    height:16.7rem;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 999;
+    background: #383838;
+    display: none;
+}
+.nav-con>li{
+    width:100%;
+    height:1.3rem;
+    border-bottom:1px solid #727272;
+}
+.nav-con>li>a{
+    width:100%;
+    height:1.3rem;
+    display: block;
+    color:#fff;
+    font-size:0.4rem;
+    line-height:1.3rem;
+    padding-left:0.6rem;
+}
+.nav>img{
+    width:0.78rem;
+    height:0.48rem;
+    position:fixed;
+    top:1.56rem;
+    right:0.49rem;
+}
+/*标题结束*/
+/*dissona开始*/
+.dissona{
+    width:100%;
+    height:4.6rem;
+}
+.dissona-con{
+    width:9rem;
+    height:100%;
+    margin:0 auto;
+}
+.dissona-con-con{
+    width:100%;
+    height:2.97rem;
+    border-bottom:1px solid #B2B2B2;
+}
+.tag{
+    width:4rem;
+    height:0.45rem;
+    margin-top:0.3rem;
+    font-size:0.4rem;
+    color:#fff;
+}
+.tag>p{
+    width:3.2rem;
+    height:0.45rem;
+    float: right;
+    background:#4C4948;
+    font-size:0.3rem;
+    line-height:0.45rem;
+    color:#fff;
+    text-align: center;
+}
+.dissona-con-con>h1{
+    font-size:0.6rem;
+    color:#fff;
+    margin-bottom:0.39rem;
+}
+.dissona-con-con>p{
+    font-size:0.3rem;
+    color:#fff;
+}
+/*dissona结束*/
+/*图片文字开始*/
+.dissona1{
+    display: block;
+    width:100%;
+    height:6.65rem;
+}
+.dissona-wenzi{
+    width:100%;
+    height:auto;
+    padding:0.4rem 0 0.3rem 0;
+}
+.dissona-wenzi>p{
+    width:9rem;
+    margin:0 auto;
+    font-size: 0.35rem;
+    line-height:180%;
+    color:#fff;
+    text-align: justify;
+}
+.dissona2{
+    display: block;
+    width:100%;
+    height:15rem;
+}
+.dissona3{
+    width:100%;
+    height:5.82rem;
+    display: block;
+}
+.dissona-wenzi-xian{
+    width:9rem;
+    border-top:1px solid #B2B2B2;
+    margin:0 auto;
+    margin-top:0.44rem;
+    margin-bottom:0.21rem;
+}
+.xian{
+    margin-top:0;
+}
+/*图片文字结束*/
+/*分享开始*/
+.fx{
+    width:9rem;
+    height:0.5rem;
+    margin:0 auto;
+    margin-bottom:0.45rem;
+}
+.fx>ul{
+    width:3.5rem;
+    height:100%;
+    float: right;
+}
+.fx>ul>li:nth-child(1){
+    width:1rem;
+    color:#fff;
+    margin-right:0;
+}
+.fx>ul>li{
+    width:0.4rem;
+    height:0.4rem;
+    float: left;
+    font-size:0.3rem;
+    margin-right:0.1rem;
+}
+.fx>ul>li>img{
+    width:0.4rem;
+    height:0.4rem;
+}
+.fx>ul>li:nth-child(6){
+    margin-right:0;
+}
+/*分享结束*/

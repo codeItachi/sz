@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>秀场直接</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet"type="text/css" href="css/xiuchangzhijie.css" >
+<!--    <script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>-->
+    <link rel="stylesheet" href="css/swiper.css">
+    <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/swiper.js"></script>
+    <!-- Demo styles -->
+    <style>
+
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+
+        }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            position:relative;
+        }
+    </style>
+</head>
+<body>
+<!--头部开始-->
+<header>
+    <ul>
+        <li><a href="">< 返回</a></li>
+        <li>深圳时装周</li>
+        <li><img src="img/anniu.png" alt=""></li>
+    </ul>
+</header>
+<!--头部结束-->
+<!--秀场直接开始-->
+<div class="nav">
+    <img src="img/anniu1.png" alt="">
+    <ul class="nav-con">
+        <li></li>
+        <li><a href="shouye.html">首页</a></li>
+        <li><a href="">新闻</a></li>
+        <li><a href="">秀场直接</a></li>
+        <li><a href="">A/W 2016 日程</a></li>
+        <li><a href="">观众报名</a></li>
+        <li><a href="">历届回顾</a></li>
+        <li><a href="">合作伙伴</a></li>
+    </ul>
+    <h1>A / W 2016 秀场直击</h1>
+    <div class="shijian">
+        <ul>
+            <li class="hot">2016/03/18</li>
+            <li>2016/03/19</li>
+            <li>2016/03/20</li>
+            <li>2016/03/21</li>
+
+            <li>2016/03/22</li>
+            <li>2016/03/23</li>
+            <li>2016/03/24</li>
+            <li>2016/03/25</li>
+        </ul>
+    </div>
+</div>
+<script>
+    $(function(){
+        var anniu=$(".nav>img");
+        var con=$(".nav-con");
+        anniu.click(function(){
+            var index=$(this).index();
+            con.css("display","none").eq(index).css("display","block");
+        })
+    })
+</script>
+
+<script>
+    $(function(){
+        var lis=$(".shijian>ul>li");
+        lis.click(function(){
+            var index=$(this).index();
+            lis.removeClass("hot").eq(index).addClass("hot");
+        })
+    })
+</script>
+<!--秀场直接结束-->
+<!--banner开始-->
+<div class="banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/dissona1.png " alt="">
+                <span class="zhezhao">dissona：时尚悖论实验</span>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/dissona2.png" alt="">
+                <span class="zhezhao">ODBO MEN：在五彩斑斓的世界里，只想穿好黑白</span>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+    </div>
+</div>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+    $(function(){
+        var aa=$(".swiper-slide")
+        var span=$(".zhezhao");
+        aa.click(function(){
+            var index=$(this).index();
+            span.css("background","rgba(0,0,0,0.3)").eq(index).css("background","rgba(255,255,255,0.3)")
+            setTimeout(function(){
+                location.href="dissona.html"
+            },1000)
+        })
+    })
+</script>
+<!--banner结束-->
+<!--图片开始-->
+<ul class="xiuchang">
+    <li><img src="img/zjxc11.png" alt=""></li>
+    <span>PSALTER 诗篇</span>
+</ul>
+<ul class="xiuchang" style="margin-right:0">
+    <li><img src="img/zjxc12.png" alt=""></li>
+    <span>YINER 音儿</span>
+</ul>
+<ul class="xiuchang xiuchang1">
+    <li><img src="img/zjxc13.png" alt=""></li>
+    <span>AUM</span>
+</ul>
+<ul class="xiuchang xiuchang1" style="margin-right:0">
+    <li><img src="img/zjxc14.png" alt=""></li>
+    <span>Marisfrolg 玛丝菲尔</span>
+</ul>
+
+
+
+<!--图片结束-->
+</body>
+</html>

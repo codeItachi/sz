@@ -1,0 +1,162 @@
+@import "init.css";
+body{
+    background: #1D1D1D;
+}
+/*头部开始*/
+header{
+    width:9.5rem;
+    height:1.15rem;
+    margin:0 auto;
+    position:relative;
+    background: #000000;
+}
+header>ul{
+    width:9.5rem;
+    height:0.5rem;
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto auto;
+}
+header>ul>li{
+    height:0.5rem;
+    line-height:0.5rem;
+    margin-right:27%;
+    float: left;
+    color:#fff;
+    font-size:0.4rem;
+}
+header>ul>li:last-child{
+    margin-right:0;
+}
+header>ul>li>img{
+    height:0.5rem;
+}
+header>ul>li>a{
+    display: block;
+    color:#fff;
+    font-size:0.4rem;
+}
+/*头部结束*/
+/*nav 开始*/
+.nav{
+    width:100%;
+    height:4rem;
+    position:relative;
+    color:#fff;
+    font-size:0.7rem;
+    text-align: center;
+    padding-top:0.7rem;
+}
+.nav-con{
+    width:6.7rem;
+    height:16.7rem;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 999;
+    background: #383838;
+    display: none;
+}
+.nav-con>li{
+    width:100%;
+    height:1.3rem;
+    border-bottom:1px solid #727272;
+}
+.nav-con>li>a{
+    width:100%;
+    height:1.3rem;
+    display: block;
+    color:#fff;
+    font-size:0.4rem;
+    line-height:1.3rem;
+    padding-left:0.6rem;
+}
+.nav>img{
+    width:0.78rem;
+    height:0.48rem;
+    position:fixed;
+    top:1.56rem;
+    right:0.49rem;
+}
+.nav>h1{
+    width:100%;
+    height:0.6rem;
+    color:#fff;
+    text-align: center;
+    font-size:0.6rem;
+    line-height:0.6rem;
+    margin-bottom:0.8rem;
+}
+.shijian{
+    width:100%;
+    height:1.1rem;
+}
+.shijian>ul>li{
+    width:2rem;
+    height:100%;
+    border-right:1px solid #fff;
+    float: left;
+    font-size:0.3rem;
+    color:#fff;
+    margin-bottom:0.3rem;
+    margin-left:0.45rem;
+}
+.shijian>ul>li:nth-child(4),.shijian>ul>li:last-child{
+    border-right:0;
+}
+.shijian>ul>.hot{
+    color:#5D5D5D;
+}
+/*banner开始*/
+.banner{
+    width:100%;
+    height:4.4rem;
+}
+.swiper-slide>img{
+    width:100%;
+    height:100%;
+}
+.zhezhao{
+    width:100%;
+    height:1rem;
+    background:rgba(0,0,0,0.3);
+    position:absolute;
+    bottom:0;
+    left:0;
+    color:#fff;
+    font-size:0.5rem;
+    text-align: left;
+    padding-left:0.3rem;
+    line-height:1rem;
+}
+/*banenr结束*/
+/*图片开始*/
+.xiuchang{
+    width:4.7rem;
+    height:5.3rem;
+    margin-top:0.6rem;
+    float: left;
+    margin-right:0.6rem;
+    position:relative;
+}
+.xiuchang>li{
+    width:4.7rem;
+    height:4.7rem;
+}
+.xiuchang>li>img{
+    width:4.7rem;
+    height:4.7rem;
+}
+.xiuchang>span{
+    width:100%;
+    text-align: center;
+    color:#fff;
+    font-size:0.3rem;
+    display: block;
+    position:absolute;
+    bottom:0;
+}
+.xiuchang1{
+    margin-bottom:0.6rem;
+}

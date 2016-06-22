@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>时装周首页</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/shouye.css" >
+    <link rel="stylesheet" href="css/swiper.css">
+    <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/swiper.js"></script>
+    <!-- Demo styles -->
+    <style>
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            position:relative;
+        }
+    </style>
+</head>
+<body>
+<!--头部开始-->
+<header>
+    <ul>
+        <li><a href="">< 返回</a></li>
+        <li>深圳时装周</li>
+        <li><img src="img/anniu.png" alt=""></li>
+    </ul>
+</header>
+<!--头部结束-->
+<!--标题开始-->
+
+<script>
+    $(function(){
+        var anniu=$(".nav>img");
+        var con=$(".nav-con");
+        anniu.click(function(){
+            var index=$(this).index();
+            con.css("display","none").eq(index).css("display","block");
+        })
+    })
+</script>
+<!--标题结束-->
+<!--视频开始-->
+<div class="shipin">
+    <div class="left">
+        <div class="left-top">
+            <img src="img/sy.png" alt="">
+        </div>
+        <div class="left-bottom">
+            <p>31:16:22:54</p>
+            <div class="shijian">
+                <img src="img/shijian.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <img src="img/anniu1.png" alt="">
+        <ul class="nav-con">
+            <li></li>
+            <li><a href="shouye.html">首页</a></li>
+            <li><a href="">新闻</a></li>
+            <li><a href="">秀场直接</a></li>
+            <li><a href="">A/W 2016 日程</a></li>
+            <li><a href="">观众报名</a></li>
+            <li><a href="">历届回顾</a></li>
+            <li><a href="">合作伙伴</a></li>
+        </ul>
+    </div>
+    <img src="img/shipin.jpg" alt="">
+
+    <ul class="biaoti">
+        <li>中文/EN</li>
+        <li>|</li>
+        <li>注册/登录</li>
+        <li>|</li>
+        <li>关于我们</li>
+    </ul>
+</div>
+<!--视频结束-->
+<!--日程表开始-->
+<div class="richengbiao">深圳时装周日程表（2016.03.18./03.25）</div>
+<ul class="biao">
+    <li>周五 2016/03/18</li>
+    <li>周六 2016/03/19</li>
+</ul>
+<ul class="biao">
+    <li>周日 2016/03/20</li>
+    <li>周一 2016/03/21</li>
+</ul>
+<ul class="biao">
+    <li>周二 2016/03/22</li>
+    <li class="hot">周三 2016/03/23</li>
+</ul>
+<ul class="biao">
+    <li>周四 2016/03/24</li>
+    <li>周五 2016/03/25</li>
+</ul>
+<script>
+    $(function(){
+        var lis=$(".biao>*");
+        lis.click(function(){
+            var index=$(this).index();
+            lis.removeClass("hot").eq(index).addClass("hot")
+        })
+    })
+</script>
+<!--日程表结束-->
+<!--背景-秀场开始-->
+<div class="beijing_xiuchang">
+    <a href="zbhd.html"><img src="img/bg-xczj.png" alt=""></a>
+</div>
+<!--背景-秀场结束-->
+<!--banner开始-->
+<div class="banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/dissona_r_01.png " alt="">
+                <span class="zhezhao">ODBO MEN：在五彩斑斓的世界里，只想穿好黑白</span>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/dissona_r_02.png" alt="">
+                <span class="zhezhao">ODBO MEN：在五彩斑斓的世界里，只想穿好黑白</span>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/dissona_r_03.png" alt="">
+                <span class="zhezhao">ODBO MEN：在五彩斑斓的世界里，只想穿好黑白</span>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/dissona_r_04.png" alt="">
+                <span class="zhezhao">ODBO MEN：在五彩斑斓的世界里，只想穿好黑白</span>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+    </div>
+</div>
+<!--banner结束-->
+<!--背景-show开始-->
+<div class="beijing_show">
+    <a href="xiuchangzhiji.html"><img src="img/bg-showroom.png" alt=""></a>
+</div>
+<!--背景-show结束-->
+<!--banner-show开始-->
+<div class="banner-show">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/show-room1.png " alt="">
+                <span class="zhezhao-show">ASAP SHOWROOM</span>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/show-room2.png" alt="">
+                <span class="zhezhao-show"></span>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/show-room3.png" alt="">
+                <span class="zhezhao-show"></span>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/show-room4.png" alt="">
+                <span class="zhezhao-show"></span>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+    </div>
+</div>
+<!--banner-show结束-->
+<!--背景-品牌与设计师开始-->
+<div class="beijing_xiuchang">
+    <a href="showroom.html"><img src="img/bg-ppysjs1.png" alt=""></a>
+</div>
+<!--背景-品牌与设计师结束-->
+<!--品牌与设计师开始-->
+<ul class="pinpai">
+    <li>
+        <img src="img/ppysj1.jpg" alt="">
+    </li>
+    <li>
+        <img src="img/ppysj2.jpg" alt="">
+    </li>
+    <li>
+        <img src="img/ppysj3.jpg" alt="">
+    </li>
+    <li>
+        <img src="img/ppysj4.jpg" alt="">
+    </li>
+    <li>
+        <img src="img/ppysj5.jpg" alt="">
+    </li>
+    <li>
+        <img src="img/ppysj6.jpg" alt="">
+    </li>
+</ul>
+<!--品牌与设计师结束-->
+<!--背景-新闻开始-->
+<div class="beijing_xinwen">
+    <a href="pinpai.html"><img src="img/bg-new1.png" alt=""></a>
+</div>
+<!--背景-新闻结束-->
+<!--banner-新闻开始-->
+<div class="banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/new1.png " alt="">
+                <span class="zhezhao">秀场稍纵即逝，SHOWROOM 静“观”其变</span>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/new2.png" alt="">
+                <span class="zhezhao">ODBO MEN：在五彩斑斓的世界里，只想穿好黑白</span>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/new3.png" alt="">
+                <span class="zhezhao">ODBO MEN：在五彩斑斓的世界里，只想穿好黑白</span>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/new4.png" alt="">
+                <span class="zhezhao">ODBO MEN：在五彩斑斓的世界里，只想穿好黑白</span>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+    </div>
+</div>
+<!--banner-新闻结束-->
+<!--背景-活动开始-->
+<div class="beijing_xiuchang">
+    <a href="xinwen.html"><img src="img/bg-hd3.png" alt=""></a>
+</div>
+<!--背景-活动结束-->
+<!--banner-活动开始-->
+<div class="banner-hd">
+    <img src="img/active1.png" alt="">
+    <span class="hd-zhezhao">D2M掀起原创设计商业落地风潮</span>
+</div>
+<!--banner-活动结束-->
+<!--背景-活动开始-->
+<div class="beijing_show">
+    <a href="huodong.html"><img src="img/bg-hd2.png" alt=""></a>
+</div>
+<!--背景-活动结束-->
+<div class="fh-top"><img src="img/fh-top.png" alt=""></div>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+
+    window.onload=function(){
+        var oDiv =document.createElement('ul');
+        oDiv.setAttribute('id','tronsis');
+        oDiv.style.cssText="width:100%;height:auto;overflow:hidden;margin-bottom:3.84rem;"
+        document.body.appendChild(oDiv);
+
+        for(i=0;i<48;i++){
+            var oB=document.createElement('li');
+            oB.style.cssText="width:2.49rem;height:2.49rem;float:left;"
+            oDiv.appendChild(oB);
+        }
+        var hzhbli=$("#tronsis>li");
+        for(i=0;i<hzhbli.length;i++){
+            hzhbli[i].index=i;
+            var curImg="url(img/hzhb_0"+(hzhbli[i].index+1)+".png) 0 0 no-repeat";
+            hzhbli[i].style.background=curImg;
+
+            hzhbli[i].style.backgroundSize="cover";
+            hzhbli[i].style.backgroundPosition="center";
+        }
+
+        var fhtop=$(".fh-top>img");
+        fhtop.click(function(){
+            $("body").animate({scrollTop:0},500)
+        })
+    }
+</script>
+<div class="bg">
+    <img src="img/bg.png" alt="">
+    <ul>
+        <li>关于我们</li>
+        <li>|</li>
+        <li>联系我们</li>
+        <li>|</li>
+        <li>友情链接</li>
+        <li>|</li>
+        <li>版权声明</li>
+        <li>|</li>
+        <li>订阅EDM</li>
+    </ul>
+</div>
+</body>
+</html>

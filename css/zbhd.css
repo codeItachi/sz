@@ -1,0 +1,96 @@
+@import "init.css";
+body{
+    background:#1D1D1D;
+}
+.banner{
+    width:100%;
+    height:4.7rem;
+    background:#1D1D1D;
+    border:1px solid red;
+}
+.banner-con{
+    width:9rem;
+    height:100%;
+    border:1px solid red;
+    margin:0 auto;
+}
+.banner-daohang{
+    width:100%;
+    height:1rem;
+}
+.banner-tupian{
+    width:100%;
+    height:3rem;
+}
+.banner-left{
+    width:4.5rem;
+    height:3rem;
+    float: left;
+    margin-right:0.4rem;
+}
+.banner-left>img{
+    width:4.5rem;
+    height:3rem;
+}
+.banner-right{
+    width:3.95rem;
+    height:100%;
+    float: left;
+}
+.banner-right>h1{
+    font-size: 24px;
+    color:#fff;
+}
+.banner-right>p{
+    font-size:0.1rem;
+    color:#fff;
+}
+/*周边活动-时间*/
+.zbhd-shijian{
+    width:100%;
+    height:auto;
+}
+.zbhd-biaoti{
+    width:100%;
+    height:1.13rem;
+    background:#3E3A39;
+    margin-bottom:1px;
+}
+.con{
+    width:9rem;
+    height:100%;
+    margin:0 auto;
+    color:#fff;
+    line-height:1.13rem;
+    font-size: 0.5rem;
+}
+.con-left{
+    width:50%;
+    float: left;
+}
+.con-right{
+    float: right;
+}
+.con-con,.con-con1,.con-con2,.con-con3{
+    width:100%;
+    height:1.13rem;
+    margin-bottom:1px;
+    background:#727272;
+}
+.con-con1{
+    height:1.73rem;
+}
+.con-con2{
+    height:2.3rem;
+}
+.con-con3{
+    height:2.9rem;
+}
+.con-con-left{
+    width:1.2rem;
+    height:100%;
+    float: left;
+}
+#con{
+    text-align: right;
+}
